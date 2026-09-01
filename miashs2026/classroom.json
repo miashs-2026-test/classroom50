@@ -1,0 +1,25 @@
+{
+  "schema": "classroom50/classroom/v1",
+  "name": "MIASHS 2026-2027 - Programmation avancee",
+  "short_name": "miashs2026",
+  "term": "2026-2027",
+  "org": "miashs-2026-test",
+  "team": {
+    "id": 19269611,
+    "slug": "classroom50-miashs2026"
+  },
+  "teams": {
+    "teacher": {
+      "id": 19269613,
+      "slug": "classroom50-miashs2026-teacher"
+    },
+    "hta": {
+      "id": 19269614,
+      "slug": "classroom50-miashs2026-hta"
+    },
+    "ta": {
+      "id": 19269615,
+      "slug": "classroom50-miashs2026-ta"
+    }
+  }
+}
