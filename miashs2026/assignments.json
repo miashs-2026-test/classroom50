@@ -1,4 +1,32 @@
 {
   "schema": "classroom50/assignments/v1",
-  "assignments": []
+  "assignments": [
+    {
+      "slug": "tp1",
+      "name": "TP1 - fonctions",
+      "template": {
+        "owner": "miashs-2026-test",
+        "repo": "tp1-template",
+        "branch": "main"
+      },
+      "due": "2026-10-16T03:59:00Z",
+      "due_meta": {
+        "input": "2026-10-15T23:59:00-04:00",
+        "offset": "-04:00",
+        "source": "explicit-offset"
+      },
+      "mode": "individual",
+      "autograder": "default",
+      "tests": [
+        {
+          "name": "nb_voyelles",
+          "type": "python",
+          "run": "python -m pytest -q",
+          "timeout": 30,
+          "points": 6
+        }
+      ],
+      "feedback_pr": true
+    }
+  ]
 }
